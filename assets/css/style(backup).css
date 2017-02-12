@@ -14,7 +14,7 @@ body {
 /*general*/
 
 .container {
-  /*clear: both;*/
+  clear: both;
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
@@ -102,31 +102,14 @@ nav a:first-child {
 /*footer*/
 
 footer {
-/*  padding: 30px 0;
+  padding: 30px 0;
   clear: both;
   color: #fff;
   color: #ccc;
   font-size: 12px;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;*/
-
-  position: fixed;
-  bottom: 0px;
-  background: #666666;
-  color: white;
-
-  border-top-width: 5px;
-  border-color: #4aaaa5;
-  border-style: solid none none none;
-
-  height: 100px;
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  line-height: 100px;
-
-  z-index: 3;
+  border-top: 8px solid #4aaaa5;
 }
 
 
@@ -264,7 +247,7 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
-  .container{
+/*  .container{
     max-width: 769px;
   }
 
@@ -275,6 +258,9 @@ input[type=submit] {
   .auth-image{
     max-width: 200px;
   }
+*/
+  
+
   
 }
 
@@ -291,18 +277,13 @@ input[type=submit] {
     max-width: 100%;
   }
 
-  .auth-image{
-    max-width: 200px;
-  }
-
 }
 
 @media screen and (max-width: 640px) {
 
-    #masthead{
-      margin-bottom: 4%;
-      position: static;
+/*    header{
     }
+
 
     #logo{
       width: 100%;
@@ -312,28 +293,11 @@ input[type=submit] {
     nav{
       width: 100%;
       float: left;
-      text-align:center;
-      margin: auto;
-      padding: 3% 0% 3% 0%;
     }
-
-    .main-section{
-      max-width: 100%;
+    
+    #main-section{
+      margin-top: 
     }
-
-    #main-container{
-      padding-top: 3%;
-    }
-
-    .sidebar{
-      margin-bottom:3%;
-    }
-
-    .auth-image{
-      width: 100%;
-      max-width: none;
-    }
-
-
-  
+  */
 }
+
